@@ -1,0 +1,6 @@
+{
+	"shell_cmd": "dotnet build -v q",
+	"file_patterns": ["*.cs","*.csproj","*.targets"],
+	"working_dir": "${folder}",
+	"file_regex": "^\\s*(\\/[^:()]*)\\(([0-9]*),([0-9]*)\\):\\s*(.*) \\[.*\\]"
+}
