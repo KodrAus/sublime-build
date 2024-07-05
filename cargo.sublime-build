@@ -1,5 +1,5 @@
 {
-    "shell_cmd": "cargo build --message-format short",
+    "shell_cmd": "cargo check --all-targets --message-format short",
     "file_patterns": ["*.rs","Cargo.toml"],
     "working_dir": "$folder",
     "file_regex": "^([^:]*):([0-9]*):([0-9]*):\\s*(.*)"
