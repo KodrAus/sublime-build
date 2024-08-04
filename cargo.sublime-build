@@ -1,5 +1,5 @@
 {
-    "shell_cmd": "cargo check --all-targets --message-format short",
+    "shell_cmd": "cargo check --all --all-targets --message-format short",
     "syntax": "Packages/Rust/Cargo.sublime-syntax",
     "file_patterns": ["*.rs","Cargo.toml"],
     "working_dir": "$folder",
